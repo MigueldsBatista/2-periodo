@@ -1,0 +1,16 @@
+Interfaces mais ultilizadas no dia a dia
+-inter
+-google
+-instagram
+-whatsapp
+-youtube
+-spotify
+
+interface que eu gosto
+Inter: pela facilidade de acesso e navegação entre as ferramentas, como para fazer um pix, investir dinheiro e etc...
+problema encontrado:chances aumentadas de ocorrerem golpes pela falta de segurança em troca da facilidade de uso
+solução: verificação em duas etapas e ferramentas de reconhecimento biométrico, facial e etc mais rápidas
+
+interface que eu abandonei: 
+google maps
+boa vizualização, mas nem sempre o trajeto é tão compreensível, e não tem funções como alertas de radares, perigos e etc, como o concorrente waze

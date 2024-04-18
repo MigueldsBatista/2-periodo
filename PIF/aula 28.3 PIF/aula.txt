@@ -1,0 +1,2 @@
+Define( não consome espaço de memoria, so define um valor que vai ser usado no codigo varias vezes)
+#define max 5
