@@ -64,6 +64,8 @@ novo->valor=valor_inserido;//Novo vale o valor inserido
 if(*lista==NULL){
 *lista=novo;
 novo->proximo=NULL;
+
+//ONDE ESTÁ O ANTERIOR?
 }else{
 current=*lista;
 while(current->valor!=anterior&&current->proximo){//
@@ -88,12 +90,12 @@ if(*lista==NULL){
     novo->proximo=NULL;
     *lista=novo;
 
-//É O MENOR DO QUE O VALOR DA LISTA?
+//É O MENOR DO QUE O VALOR INICIAL DA LISTA?
 
 }else if(novo->valor < (*lista)->valor){
     (novo->proximo)=*lista;
     *lista=novo;
-
+//QUAL É O PRIMEIRO MENOR VALOR DA LISTA QUE É MENOR QUE O NOSSO?
 }else{
     No *current=malloc(sizeof(No));
     current=*lista;
@@ -139,6 +141,7 @@ int main()
 {
     No *lista=NULL;
     No *remover=NULL;//IMPORTANTE
+    
     insert_first(&lista, 3);//3
     insert_first(&lista, 4);//2
     insert_first(&lista, 5);//1
