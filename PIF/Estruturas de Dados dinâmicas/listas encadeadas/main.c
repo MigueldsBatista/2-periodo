@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-  typedef struct no {//typedef é usado para criar um sinonimo para essa estrutura
+  typedef struct no{//typedef é usado para criar um sinonimo para essa estrutura
         int valor;
         struct no *prox;//ponteiro de struct para o proximo elemento
     }No;//Nome que é usado como sinonimo dessa struct
