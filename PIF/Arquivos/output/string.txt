@@ -1,0 +1,5 @@
+TEStE 2 da leitura de arquivo e como funciona
+aasdas
+32Primeira linha do arquivo
+Segunda linha
+3
