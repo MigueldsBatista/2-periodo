@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+int chamada=0;
 // Função recursiva para calcular o fatorial de um número
 int fatorial(int x) {
 
     // Caso base: se x é 0 ou 1, retorna 1 (0! = 1 e 1! = 1)
     if(x == 1 || x == 0) {
+        chamada++;
+
         return 1;
     }
     else { 
@@ -29,7 +31,7 @@ int fatorial(int x) {
         // A inversão acontece quando a condição base é atingida e as funções começam a retornar.
         // Aqui, fatorial(1) atinge a condição base e retorna 1.
         // A partir desse ponto, as funções começam a retornar e multiplicar os resultados intermediários.
-        
+        chamada++;
         return x * fatorial(x - 1);
     }
 }
@@ -42,6 +44,7 @@ int main() {
     
     // Calcula e imprime o fatorial do número digitado
     printf("%d \t", fatorial(x));
+    printf("%d", chamada);
 
     // Retorno da Quinta Chamada:
     // fatorial(1) retorna 1

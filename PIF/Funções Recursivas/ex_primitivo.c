@@ -1,11 +1,13 @@
 #include <stdio.h>
-
+int chamada=0;
 void imprimir_crescente(int x){
 if(x==0){
     printf("%d\n", x);
+    chamada++;
 }
 else{
     imprimir_crescente(x-1);//vai chegar até zero 
+    chamada++;
  //   Primeira chamada: imprimir(3)
 //        x não é 0, então chama imprimir(2)
  //           x não é 0, então chama imprimir(1)
@@ -40,6 +42,7 @@ int main()
         imprimir_crescente(x);
         printf("ordem decrescente\n");
         imprimir_decrescente(x);
+        printf("quantidade de chamadas %d", chamada);
         return 0;
     }
     
